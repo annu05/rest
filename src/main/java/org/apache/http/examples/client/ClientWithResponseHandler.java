@@ -7,8 +7,6 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.DataInput;
-import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
@@ -29,6 +27,8 @@ public class ClientWithResponseHandler {
 
     @JsonProperty("getUsersSrvUrl")
     private String getUsersSrvUrl;
+    @JsonProperty("getLicensesSrvUrl")
+    private String getLicensesSrvUrl;
 
     public String getGetUsersSrvUrl() {
         return getUsersSrvUrl;
@@ -46,6 +46,7 @@ public class ClientWithResponseHandler {
             ClientWithResponseHandler clientWithResponseHandler = null;
             String prettyStaff = null;
             String a = null;
+            String b = null;
             JsonParser parser;
         try{
             clientWithResponseHandler =mapper.readValue(url,ClientWithResponseHandler.class);
@@ -63,8 +64,11 @@ public class ClientWithResponseHandler {
 
                     jsonToken = parser.nextToken();
 
+
                     if("getUsersSrvUrl".equals(fieldName)){
                        a = parser.getValueAsString();
+                    }else if("getLicensesSrvUrl".equals(fieldName)){
+                        b = parser.getValueAsString();
                     }
                 }
             }
@@ -74,12 +78,15 @@ public class ClientWithResponseHandler {
             e.printStackTrace();
         }
 
-
+        String stoken = "eyJleHBEYXRlIjoiMjAyMC0wOS0xNVQyMzoxNToxNi0wNzAwIiwidG9rZW4iOiI5c3RtRTcvbWFuckxJZExqcU1DeXpjaXM2S1BxZ0p3blVha1JMditVN0swdlF1RTQvWDIwdkNYeXd2U3pwZXpZQk05d3B0M0Z0bVYrSExXYldlcVRWdUhmaWxzL050ajZ1OTgzdktPckFjbkNBOHlvN0VDV09IQ1o3bm1kSDFMK09zVzdJeThUVlZ5MkNWS0JXZGVOZEE9PSIsIm9yZ05hbWUiOiJOb3ZlbGwifQhttps://uclient-api.itunes.apple.com/WebObjects/MZStorePlatform.woa/wa/lookup?version=2";
+        String stoken2 = "?sToken=eyJleHBEYXRlIjoiMjAyMC0wOS0xNVQyMzoxNToxNi0wNzAwIiwidG9rZW4iOiI5c3RtRTcvbWFuckxJZExqcU1DeXpjaXM2S1BxZ0p3blVha1JMditVN0swdlF1RTQvWDIwdkNYeXd2U3pwZXpZQk05d3B0M0Z0bVYrSExXYldlcVRWdUhmaWxzL050ajZ1OTgzdktPckFjbkNBOHlvN0VDV09IQ1o3bm1kSDFMK09zVzdJeThUVlZ5MkNWS0JXZGVOZEE9PSIsIm9yZ05hbWUiOiJOb3ZlbGwifQ==&clientUserIdStr=100001";
         CloseableHttpClient httpclient = HttpClients.createDefault();
         try {
-            HttpGet httpget = new HttpGet(a);
+            HttpGet httpget = new HttpGet(a+"?sToken="+stoken);
+            HttpGet httpget2 = new HttpGet(b+stoken2);
 
             System.out.println("Executing request " + httpget.getRequestLine());
+            System.out.println("Executing request " + httpget2.getRequestLine());
 
 
             ResponseHandler<String> responseHandler = new ResponseHandler<String>() {
@@ -100,6 +107,9 @@ public class ClientWithResponseHandler {
             String responseBody = httpclient.execute(httpget, responseHandler);
             System.out.println("----------------------------------------");
             System.out.println(responseBody);
+            String responseBody2 = httpclient.execute(httpget2, responseHandler);
+            System.out.println("----------------------------------------");
+            System.out.println(responseBody2);
         } finally {
             httpclient.close();
         }
