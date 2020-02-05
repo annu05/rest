@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196a225a-db99-4299-8834-b2edab4298f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" afterDir="false" />
@@ -41,11 +39,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580837961787" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="C:/demo/libs/postgresql-42.2.9.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientWithResponseHandler">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.http.examples.client.App" />
+      <module name="rest4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.http.examples.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientWithResponseHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.http.examples.client.ClientWithResponseHandler" />
       <module name="rest4" />
@@ -62,6 +75,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientWithResponseHandler" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -83,63 +97,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="179" key="#ClientWithResponseHandler/0.0.1920.1040@0.0.1920.1040" timestamp="1580880078045" />
-    <state width="1877" height="385" key="GridCell.Tab.0.bottom" timestamp="1580884939659">
+    <state x="896" y="340" key="FileChooserDialogImpl" timestamp="1580893171943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580884939659" />
-    <state width="1877" height="385" key="GridCell.Tab.0.center" timestamp="1580884939659">
+    <state x="896" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580893171943" />
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom" timestamp="1580897898717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580884939659" />
-    <state width="1877" height="385" key="GridCell.Tab.0.left" timestamp="1580884939659">
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580897898717" />
+    <state width="1877" height="443" key="GridCell.Tab.0.center" timestamp="1580897898717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580884939659" />
-    <state width="1877" height="385" key="GridCell.Tab.0.right" timestamp="1580884939659">
+    <state width="1877" height="443" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580897898717" />
+    <state width="1877" height="443" key="GridCell.Tab.0.left" timestamp="1580897898717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="385" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580884939659" />
+    <state width="1877" height="443" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580897898717" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right" timestamp="1580897898717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="443" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580897898717" />
+    <state x="596" y="160" key="SettingsEditor" timestamp="1580893177451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="596" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580893177451" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Python 3.7 (Python3.7)</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

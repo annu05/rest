@@ -9,6 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.Connection;
 
 
 import org.apache.http.HttpEntity;
@@ -80,6 +81,44 @@ public class ClientWithResponseHandler {
 
         String stoken = "eyJleHBEYXRlIjoiMjAyMC0wOS0xNVQyMzoxNToxNi0wNzAwIiwidG9rZW4iOiI5c3RtRTcvbWFuckxJZExqcU1DeXpjaXM2S1BxZ0p3blVha1JMditVN0swdlF1RTQvWDIwdkNYeXd2U3pwZXpZQk05d3B0M0Z0bVYrSExXYldlcVRWdUhmaWxzL050ajZ1OTgzdktPckFjbkNBOHlvN0VDV09IQ1o3bm1kSDFMK09zVzdJeThUVlZ5MkNWS0JXZGVOZEE9PSIsIm9yZ05hbWUiOiJOb3ZlbGwifQhttps://uclient-api.itunes.apple.com/WebObjects/MZStorePlatform.woa/wa/lookup?version=2";
         String stoken2 = "?sToken=eyJleHBEYXRlIjoiMjAyMC0wOS0xNVQyMzoxNToxNi0wNzAwIiwidG9rZW4iOiI5c3RtRTcvbWFuckxJZExqcU1DeXpjaXM2S1BxZ0p3blVha1JMditVN0swdlF1RTQvWDIwdkNYeXd2U3pwZXpZQk05d3B0M0Z0bVYrSExXYldlcVRWdUhmaWxzL050ajZ1OTgzdktPckFjbkNBOHlvN0VDV09IQ1o3bm1kSDFMK09zVzdJeThUVlZ5MkNWS0JXZGVOZEE9PSIsIm9yZ05hbWUiOiJOb3ZlbGwifQ==&clientUserIdStr=100001";
+
+        URL url2 = new URL(a+"?sToken="+stoken);
+        Test test = null;
+        String prettyStaff2 = null;
+        String a2 = null;
+        String b2 = null;
+        JsonParser parser2;
+        try{
+            test =mapper.readValue(url2,Test.class);
+
+            prettyStaff2 = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(test);
+            System.out.println(prettyStaff2);
+
+            System.out.println(prettyStaff);
+            JsonFactory factory = new JsonFactory();
+            parser  = factory.createParser(prettyStaff);
+            while(!parser.isClosed()){
+                JsonToken jsonToken = parser.nextToken();
+                if(JsonToken.FIELD_NAME.equals(jsonToken)){
+                    String fieldName = parser.getCurrentName();
+
+
+                    jsonToken = parser.nextToken();
+
+
+                    if("getUsersSrvUrl".equals(fieldName)){
+                        a = parser.getValueAsString();
+                    }else if("getLicensesSrvUrl".equals(fieldName)){
+                        b = parser.getValueAsString();
+                    }
+                }
+            }
+
+
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+
         CloseableHttpClient httpclient = HttpClients.createDefault();
         try {
             HttpGet httpget = new HttpGet(a+"?sToken="+stoken);
@@ -113,6 +152,14 @@ public class ClientWithResponseHandler {
         } finally {
             httpclient.close();
         }
+        App app = new App();
+        app.connect();
     }
 
+
+
+
+
+
 }
+
