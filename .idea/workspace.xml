@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="196a225a-db99-4299-8834-b2edab4298f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.ClientWithResponseHandler">
+  <component name="RunManager" selected="JUnit.UnitTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.http.examples.client.App" />
       <module name="rest4" />
@@ -72,8 +77,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in rest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest.testjson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTest" />
+      <option name="METHOD_NAME" value="testjson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitTest" />
+        <item itemvalue="JUnit.UnitTest.testjson" />
+        <item itemvalue="JUnit.All in rest4" />
         <item itemvalue="Application.ClientWithResponseHandler" />
         <item itemvalue="Application.App" />
       </list>
@@ -101,26 +136,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="896" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580893171943" />
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1580902179055">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1580971564394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580902179055" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1580902179055">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1580971564394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580902179055" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1580902179055">
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1580971564394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580902179055" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1580902179055">
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1580971564394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580902179055" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580965983450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580965983450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580965983450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580965983450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
     <state x="596" y="160" key="SettingsEditor" timestamp="1580893177451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="596" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580893177451" />
+    <state x="666" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1580965886300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="149" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580965886300" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
