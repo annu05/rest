@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="196a225a-db99-4299-8834-b2edab4298f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.UnitTest">
+  <component name="RunManager" selected="Application.ClientWithResponseHandler">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.http.examples.client.App" />
       <module name="rest4" />
@@ -106,10 +108,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnitTest" />
-        <item itemvalue="JUnit.UnitTest.testjson" />
-        <item itemvalue="JUnit.All in rest4" />
         <item itemvalue="Application.ClientWithResponseHandler" />
+        <item itemvalue="JUnit.UnitTest.testjson" />
+        <item itemvalue="JUnit.UnitTest" />
+        <item itemvalue="JUnit.All in rest4" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -132,26 +134,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="179" key="#ClientWithResponseHandler/0.0.1920.1040@0.0.1920.1040" timestamp="1580880078045" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1580982157126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580982157126" />
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580980840447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580980840447" />
     <state x="896" y="340" key="FileChooserDialogImpl" timestamp="1580893171943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="896" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580893171943" />
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1580971564394">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1580985314364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1580971564394">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1580985314364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1580971564394">
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1580985314364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1580971564394">
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1580985314364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580971564394" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580965983450">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

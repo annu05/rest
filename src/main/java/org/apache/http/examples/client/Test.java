@@ -2,6 +2,7 @@ package org.apache.http.examples.client;
 
 import com.fasterxml.jackson.annotation.*;
 
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,12 +18,21 @@ import java.util.Map;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Test {
 
+    @JsonProperty("uId")
+    private String uId;
+    @JsonProperty("clientContext")
+    private String clientContext;
+    @JsonProperty("location")
+    private Test location;
+    @JsonProperty("locationName")
+    private String locationName;
+
         @JsonProperty("clientUserIdStr")
         private String clientUserIdStr;
         @JsonProperty("inviteCode")
         private String inviteCode;
         @JsonProperty("status")
-        private String status;
+        private String status2;
         @JsonProperty("inviteUrl")
         private String inviteUrl;
         @JsonProperty("userId")
@@ -52,12 +62,12 @@ public class Test {
 
         @JsonProperty("status")
         public String getStatus() {
-            return status;
+            return status2;
         }
 
         @JsonProperty("status")
         public void setStatus(String status) {
-            this.status = status;
+            this.status2 = status2;
         }
 
         @JsonProperty("inviteUrl")
@@ -89,6 +99,19 @@ public class Test {
         public void setAdditionalProperty(String name, Object value) {
             this.additionalProperties.put(name, value);
         }
+    @JsonProperty("uId")
+    public String getUId() {
+        return uId;
+    }
+    @JsonProperty("clientContext")
+    public String getClientContext() {
+        return clientContext;
+    }
+    @JsonProperty("location")
+    public Test getLocation() {
+        return location;
+    }
+
 
 
     @JsonProperty("users")

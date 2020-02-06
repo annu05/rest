@@ -1,7 +1,13 @@
 package org.apache.http.examples.client;
 
+
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
@@ -19,17 +25,39 @@ public class App{
      *
      * @return a Connection object
      */
-    public Connection connect() {
+    public Connection connect(Test test) {
+        ObjectMapper mapper = new ObjectMapper();
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url, user, password);
             System.out.println("Connected to the PostgreSQL server successfully.");
+            try {
+                String b = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(test.getLocation());
+                String c = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(test.getUsers());
+                PreparedStatement pt = conn.prepareStatement("INSERT INTO \"rest\" values(?,?,?,?)");
+                pt.setString(1,test.getClientContext());
+                pt.setString(2,b);
+                pt.setString(3,test.getUId());
+                pt.setString(4,c);
+                int i = pt.executeUpdate();
+                System.out.println(i+"records inserted");
+            } catch (JsonProcessingException e) {
+                e.printStackTrace();
+            }
+
+
+
+
+
+
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }
 
         return conn;
     }
+
+
 
 
 }

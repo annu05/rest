@@ -13,6 +13,7 @@ import java.net.URL;
 import java.sql.Connection;
 
 
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
@@ -40,7 +41,7 @@ public class ClientWithResponseHandler {
 
     public final static void main(String[] args) throws Exception {
 
-        ObjectMapper mapper = new ObjectMapper();
+
         URL url = null;
         try {
             url = new URL("https://vpp.itunes.apple.com/WebObjects/MZFinance.woa/wa/VPPServiceConfigSrv");
@@ -84,11 +85,20 @@ public class ClientWithResponseHandler {
             String responseBody = httpclient.execute(httpget, responseHandler);
             System.out.println("----------------------------------------");
             System.out.println(responseBody);
+            App app = new App();
+            ObjectMapper mapper = new ObjectMapper();
+            Test test = mapper.readValue(responseBody,Test.class);
+
+            app.connect(test);
+
+
+
+
+
         } finally {
             httpclient.close();
         }
-        App app = new App();
-        app.connect();
+
     }
 
 
