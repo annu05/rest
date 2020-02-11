@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196a225a-db99-4299-8834-b2edab4298f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rest4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/ClientWithResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/ClientWithResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/apache/http/examples/client/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +16,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,6 +39,18 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="f1dbf2e9-1676-45e1-be5f-e29c3a5d3f64" name="Unnamed" port="5434" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="C:/Program Files/JetBrains/PhpStorm 2019.3.2" />
+      <path value="$USER_HOME$/Downloads/php-7.4.2-src" />
+      <path value="C:/php/pear" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1XNCOh51ELADQvOBm5oJoTWfXwF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,29 +58,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580837961787" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="C:/demo/libs/postgresql-42.2.9.jar!/" />
+    <property name="last_opened_file_path" value="C:/php/php.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
-  <component name="RunManager" selected="Application.ClientWithResponseHandler">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.apache.http.examples.client.App" />
-      <module name="rest4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.apache.http.examples.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Rest.html">
     <configuration name="ClientWithResponseHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.apache.http.examples.client.ClientWithResponseHandler" />
       <module name="rest4" />
@@ -87,32 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rest4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Rest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/rest4/org/apache/http/examples/client/Rest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
-    <configuration name="UnitTest.testjson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rest4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest" />
-      <option name="METHOD_NAME" value="testjson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="enter-bookid.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/enter-bookid.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/main/java/org/apache/http/examples/client/rest.php">
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientWithResponseHandler" />
-        <item itemvalue="JUnit.UnitTest.testjson" />
-        <item itemvalue="JUnit.UnitTest" />
-        <item itemvalue="JUnit.All in rest4" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JavaScript Debug.Rest.html" />
+        <item itemvalue="PHP Script.rest.php" />
+        <item itemvalue="PHP Script.enter-bookid.php" />
       </list>
     </recent_temporary>
   </component>
@@ -126,62 +126,124 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580828204399</updated>
+      <workItem from="1581328900228" duration="111000" />
+      <workItem from="1581329032838" duration="2922000" />
+      <workItem from="1581394666656" duration="1035000" />
+      <workItem from="1581395832197" duration="48000" />
+      <workItem from="1581396110186" duration="4071000" />
+      <workItem from="1581400198225" duration="1779000" />
+      <workItem from="1581402048085" duration="501000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="540" y="175" key="#CLI_Interpreters" timestamp="1581399290587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1581399290587" />
     <state x="673" y="179" key="#ClientWithResponseHandler" timestamp="1580880078045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="179" key="#ClientWithResponseHandler/0.0.1920.1040@0.0.1920.1040" timestamp="1580880078045" />
+    <state x="667" y="111" key="#PHP" timestamp="1581397581873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="111" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1581397581873" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581312297616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581312297616" />
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1580982157126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580982157126" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581331095881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581331095881" />
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580980840447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580980840447" />
-    <state x="896" y="340" key="FileChooserDialogImpl" timestamp="1580893171943">
+    <state x="679" y="209" key="#enter-bookid.php" timestamp="1581330542575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="896" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580893171943" />
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1580985314364">
+    <state x="679" y="209" key="#enter-bookid.php/0.0.1920.1040@0.0.1920.1040" timestamp="1581330542575" />
+    <state x="679" y="209" key="#rest.php" timestamp="1581331809545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1580985314364">
+    <state x="679" y="209" key="#rest.php/0.0.1920.1040@0.0.1920.1040" timestamp="1581331809545" />
+    <state x="896" y="340" key="FileChooserDialogImpl" timestamp="1581399127557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1580985314364">
+    <state x="896" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581399127557" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1581401980494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1580985314364">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581401980494" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1581401980494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580985314364" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1580965983450">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581401980494" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1581401980494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1580965983450">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581401980494" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1581401980494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1580965983450">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581401980494" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1581401289829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1580965983450">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581401289829" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1581401289829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580965983450" />
-    <state x="596" y="160" key="SettingsEditor" timestamp="1580893177451">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581401289829" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1581401289829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="596" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580893177451" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581401289829" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1581401289829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581401289829" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1581331010324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581331010324" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1581331010323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581331010323" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1581331010323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581331010323" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1581331010323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581331010323" />
+    <state x="794" y="444" key="NewPhpFileDialog" timestamp="1581331160738">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="444" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581331160738" />
+    <state x="522" y="216" key="SettingsEditor" timestamp="1581399292052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="522" y="216" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581399292052" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581402048096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581402048096" />
+    <state x="332" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1581400614609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="332" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581400614609" />
     <state x="666" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1580965886300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

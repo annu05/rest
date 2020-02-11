@@ -1,15 +1,8 @@
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.http.examples.client.Parser;
-import org.apache.http.examples.client.ClientWithResponseHandler;
-import org.junit.Test;
 
+import org.apache.http.examples.client.Parser;
+import org.junit.Test;
 import java.io.File;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
+
 
 import static org.junit.Assert.*;
 

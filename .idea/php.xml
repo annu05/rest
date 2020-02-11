@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="C:/Program Files/JetBrains/PhpStorm 2019.3.2" />
+      <path value="$USER_HOME$/Downloads/php-7.4.2-src" />
+      <path value="C:/php/pear" />
+    </include_path>
+  </component>
+</project>
