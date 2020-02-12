@@ -25,13 +25,12 @@ public class Parser {
 
         ClientWithResponseHandler clientWithResponseHandler = null;
         String prettyStaff = null;
-        Test test =null;
+
         String b = null;
         JsonParser parser;
 
         try{
             clientWithResponseHandler =mapper.readValue(url,ClientWithResponseHandler.class);
-            test = mapper.readValue(url,Test.class);
 
             prettyStaff = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(clientWithResponseHandler);
 

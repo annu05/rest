@@ -1,4 +1,5 @@
 package org.apache.http.examples.client;
+import com.example.Example.java.User;
 
 
 
@@ -24,6 +25,7 @@ public class App{
      * Connect to the PostgreSQL database
      *
      * @return a Connection object
+     * @param
      */
     public Connection connect(Test test) {
         ObjectMapper mapper = new ObjectMapper();
@@ -39,8 +41,6 @@ public class App{
                 pt.setString(2,b);
                 pt.setString(3,test.getUId());
                 pt.setString(4,c);
-                int i = pt.executeUpdate();
-                System.out.println(i+"records inserted");
             } catch (JsonProcessingException e) {
                 e.printStackTrace();
             }

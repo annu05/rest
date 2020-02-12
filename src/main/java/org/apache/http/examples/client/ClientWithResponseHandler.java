@@ -1,16 +1,16 @@
 package org.apache.http.examples.client;
+import com.example.Example.java.User;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.sql.Connection;
+
 
 
 
@@ -30,12 +30,6 @@ public class ClientWithResponseHandler {
 
     @JsonProperty("getUsersSrvUrl")
     private String getUsersSrvUrl;
-    @JsonProperty("getLicensesSrvUrl")
-    private String getLicensesSrvUrl;
-
-    public String getGetUsersSrvUrl() {
-        return getUsersSrvUrl;
-    }
 
 
 
@@ -55,7 +49,6 @@ public class ClientWithResponseHandler {
 
 
         String stoken = "?sToken=eyJleHBEYXRlIjoiMjAyMC0wOS0xNVQyMzoxNToxNi0wNzAwIiwidG9rZW4iOiI5c3RtRTcvbWFuckxJZExqcU1DeXpjaXM2S1BxZ0p3blVha1JMditVN0swdlF1RTQvWDIwdkNYeXd2U3pwZXpZQk05d3B0M0Z0bVYrSExXYldlcVRWdUhmaWxzL050ajZ1OTgzdktPckFjbkNBOHlvN0VDV09IQ1o3bm1kSDFMK09zVzdJeThUVlZ5MkNWS0JXZGVOZEE9PSIsIm9yZ05hbWUiOiJOb3ZlbGwifQhttps://uclient-api.itunes.apple.com/WebObjects/MZStorePlatform.woa/wa/lookup?version=2";
-        String stoken2 = "?sToken=eyJleHBEYXRlIjoiMjAyMC0wOS0xNVQyMzoxNToxNi0wNzAwIiwidG9rZW4iOiI5c3RtRTcvbWFuckxJZExqcU1DeXpjaXM2S1BxZ0p3blVha1JMditVN0swdlF1RTQvWDIwdkNYeXd2U3pwZXpZQk05d3B0M0Z0bVYrSExXYldlcVRWdUhmaWxzL050ajZ1OTgzdktPckFjbkNBOHlvN0VDV09IQ1o3bm1kSDFMK09zVzdJeThUVlZ5MkNWS0JXZGVOZEE9PSIsIm9yZ05hbWUiOiJOb3ZlbGwifQ==&clientUserIdStr=100001";
 
 
 
